@@ -14,8 +14,7 @@ a{
 body{
 	color: #656f77;
 	background: #21ea7b;
-	font-size: 16px;
-	font-family: "BrutalLight";
+	font: 16px "BrutalLight";
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -31,7 +30,7 @@ body{
 
 .header{
 	display: block;
-	margin: 0 0 40px 0;
+	margin: 0 0 40px;
 }
 
 .langs{
@@ -44,13 +43,12 @@ body{
 }
 
 .langs__item:first-child{
-	margin: 0 30px 0 0;
+	margin: 0 30px 0;
 }
 
 .langs__item-link{
 	color: #656f77;
-	font-family: "BrutalBold";
-	font-size: 12px;
+	font: 12px "BrutalBold";
 }
 
 .langs__item-link:hover{
@@ -62,12 +60,10 @@ body{
 }
 
 .about{
-	float: left;
 	width: 45%;
 	display: inline-block;
-	margin: 0 50px 0 0;
+	margin: 0 50px 0;
 	box-sizing: border-box;
-	display: inline-block;
 }
 
 .about__photo-wrap{
@@ -75,25 +71,18 @@ body{
 	max-height: 500px;
 	border: 2px solid #21ea7b;
 	z-index: 2;
-	margin: 0 0 50px 0;
+	margin: 0 0 50px;
 }
 
 .about__photo{
 	display: block;
-	// background: url(img/photo.jpg) no-repeat;
-	// background-size: cover;
 	width: 100%;
 	height: 94%;
 	margin: 15px 15px 15px -15px;
 	z-index: -2;
 }
 
-.about__text{
-	
-}
-
 .contacts{
-	float: right;
 	width: 45%;
 	display: inline-block;
 	box-sizing: border-box;
@@ -101,11 +90,11 @@ body{
 
 .contacts__name{
 	font-size: 60px;
-	margin: 0 0 100px 0;
+	margin: 0 0 100px;
 }
 
 .contacts__name_bold{
-	font-family: "BrutalBold";
+	font: "BrutalBold";
 }
 
 .socials{
@@ -117,7 +106,7 @@ body{
 .socials__item{
 	display: inline-block;
 	min-width: 250px;
-	margin: 0 60px 60px 0;
+	margin: 0 60px 60px;
 }
 
 .socials__item-wrap{
@@ -125,27 +114,27 @@ body{
 }
 
 .email-img{
-	background: url(img/email.png);
+	background: url(img/email.svg);
 }
 
 .github-img{
-	background: url(img/github.png);
+	background: url(img/github.svg);
 }
 
 .vk-img{
-	background: url(img/vk.png);
+	background: url(img/vk.svg);
 }
 
 .phone-img{
-	background: url(img/phone.png);
+	background: url(img/phone.svg);
 }
 
 .tw-img{
-	background: url(img/tw.png);
+	background: url(img/tw.svg);
 }
 
 .loc-img{
-	background: url(img/loc.png);
+	background: url(img/loc.svg);
 }
 
 .socials__item-img{
@@ -153,7 +142,7 @@ body{
 	width: 40px;
 	height: 40px;
 	display: inline-block;
-	margin: 0 10px 0 0;
+	margin: 0 10px 0;
 }
 
 .socials__item-name{
@@ -163,8 +152,7 @@ body{
 
 .socials__item-text{
 	display: block;
-	font-family: "BrutalBold";
-	font-size: 24px;
+	font: 24px BrutalBold;
 	color: #21ea7b;
 }
 

@@ -1,4 +1,3 @@
-/* font-family: "BrutalRegular"; */
 @font-face {
     font-family: "BrutalRegular";
     src: url("fonts/BrutalRegular.eot");
@@ -8,7 +7,7 @@
     font-style: normal;
     font-weight: normal;
 }
-/* font-family: "BrutalBold"; */
+
 @font-face {
     font-family: "BrutalBold";
     src: url("fonts/BrutalBold.eot");
@@ -18,7 +17,7 @@
     font-style: normal;
     font-weight: normal;
 }
-/* font-family: "BrutalMedium"; */
+
 @font-face {
     font-family: "BrutalMedium";
     src: url("fonts/BrutalMedium.eot");
@@ -28,7 +27,7 @@
     font-style: normal;
     font-weight: normal;
 }
-/* font-family: "BrutalLight"; */
+
 @font-face {
     font-family: "BrutalLight";
     src: url("./fonts/BrutalLight.eot");
